@@ -1,13 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
-from requests.api import put
-from requests.sessions import REDIRECT_STATI
 from credentials import credentials
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pprint as pp
 
-
+# Personal values, need to be updated if you are not me
 CLIENT_ID = credentials["client_id"]
 SECRET = credentials["client_secret"]
 REDIRECT_URL = "http://example.com"
